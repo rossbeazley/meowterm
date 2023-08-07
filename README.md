@@ -29,10 +29,6 @@ Contributions are welcome. If you'd like to contribute to MeowTerm, please follo
 
 ## License
 
-This project is licensed under the [Mozilla Public License](LICENSE).
+This project is licensed under the [Mozilla Public License](LICENSE)
 
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us at meowterm@example.com.
-
-Happy coding and meowing away! 🐱🚀
+## Happy coding and meowing away! 🐱
