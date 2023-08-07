@@ -29,7 +29,7 @@ Contributions are welcome. If you'd like to contribute to MeowTerm, please follo
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Mozilla Public License](LICENSE).
 
 ## Contact
 
