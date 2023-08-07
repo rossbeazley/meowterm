@@ -5,7 +5,7 @@ Welcome to MeowTerm, your purrfect terminal for all your tech adventures! 🐱
 
 ## Description
 
-MeowTerm is a terminal program designed to make your coding and tech management tasks a breeze. With its sleek design and intuitive features, MeowTerm aims to enhance your command-line experience while keeping things fun and efficient.
+MeowTerm is a terminal program designed to make your tech management tasks a simple. With its bash based design and intuitive features, MeowTerm aims to enhance your command-line experience while keeping things fun.
 
 ## Features
 
