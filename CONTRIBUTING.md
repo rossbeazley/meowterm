@@ -4,8 +4,8 @@
 2. anything to add colors will be put in comunity changes branch
 3. nothing malicious
 4. any software intigrations e.g chatgpt will be put in intigrations branch if deemed usefull
-5. nothing changing the main print that is the ```echo "Welcome to meowterm" ``` part ```
-                                                  echo "for help run help"
-                                                  echo "for deploy specify path of deploy.yaml"
-                                                  echo "© Meownet company 2023"```
+5. nothing changing the main print that is the ```echo "Welcome to meowterm" echo "for help run help" echo "for deploy specify path of deploy.yaml"echo "© Meownet company 2023"``` part 
+                                                  
+                                                  
+                                                  
 
