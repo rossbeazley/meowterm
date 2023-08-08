@@ -1,0 +1,36 @@
+#!/bin/bash
+
+echo "Welcome to meowterm"
+echo "for help run help"
+echo "for deploy specify path of deploy.yaml"
+echo "© Meownet company 2023"
+
+
+while true; do
+    IFS=' ' read -p "Enter a command: " -a line
+    command="${line[0]}"
+    arg1="${line[1]}"
+    arg2="${line[2]}"
+
+
+    if [ "$command" = "xt" ]; then
+        echo "Exiting meowterm."
+        break  # Exit the loop
+    elif [ "$command" = "cat" ]; then
+        cat "$arg1"
+    elif [ "$command" = "kubectl" ]; then
+        kubectl "$arg1" "$arg2"
+    elif [ "$command" = "deploy" ]; then
+	kubectl apply -f "$arg1"
+    elif [ "$command" = "help" ]; then
+	echo "
+	      deploy pathtodeplyyaml: deploys kubernetes pod from deploy.yaml
+	      cat pathtofile: cats a file
+	      kubectl arg1 arg2: runs kubectl with two arguments
+	      xt: exits the terminal"
+    elif [ "$command" = "install" ]; then
+	apt install $arg1
+    else
+        echo "Unknown command: $command"
+    fi
+done
