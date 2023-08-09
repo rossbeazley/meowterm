@@ -32,3 +32,5 @@ Contributions are welcome. If you'd like to contribute to MeowTerm, please follo
 This project is licensed under the [Mozilla Public License](LICENSE)
 
 ## Happy coding and meowing away! 🐱
+
+🐈🐈🐈🐈🐈
